@@ -1,0 +1,6 @@
+@taskapi_HostAddress = http://localhost:5215
+
+GET {{taskapi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
