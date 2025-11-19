@@ -9,6 +9,9 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConnect
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(connectionString));
 
+
+
+//conexão com o front angular(lembrar de utilizar a mesma porta)
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAngular",
@@ -36,6 +39,6 @@ app.UseHttpsRedirection();
 app.UseCors("AllowAngular");
 
 
-CreateTask.MapEndpoint(app);   // Mapeia o POST
+CreateTask.MapEndpoint(app);   // mapeia o post da parada
 
 app.Run();
