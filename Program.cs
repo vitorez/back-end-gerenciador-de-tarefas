@@ -41,6 +41,7 @@ app.UseCors("AllowAngular");
 CreateTask.MapEndpoint(app);
 GetAllTasks.MapEndpoint(app);
 UpdateTask.MapEndpoint(app);
+DeleteTask.MapEndpoint(app);
 
 
 app.Run();
