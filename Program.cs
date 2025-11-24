@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using TaskApi.Infrastructure.Database;
 using TaskApi.Features.Tasks;
+using MyProject.Api.Features.Tasks;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,8 +9,6 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConnect
 
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(connectionString));
-
-
 
 //conexão com o front angular(lembrar de utilizar a mesma porta)
 builder.Services.AddCors(options =>
@@ -39,6 +38,7 @@ app.UseHttpsRedirection();
 app.UseCors("AllowAngular");
 
 
-CreateTask.MapEndpoint(app);   // mapeia o post da parada
+app.MapTasksEndpoints();
+
 
 app.Run();

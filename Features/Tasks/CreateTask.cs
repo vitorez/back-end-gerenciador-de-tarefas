@@ -13,7 +13,7 @@ public static class CreateTask
         public string? Date { get; set; }
         public string? Time { get; set; }
         public string Section { get; set; } = "today";
-        public string Color { get; set; } = "#ffffff"; //testar cor no front pq acho q vai dar bosta
+        public string Color { get; set; } = "#ffffff";
         public bool Completed { get; set; }
     }
     public static void MapEndpoint(IEndpointRouteBuilder app)
