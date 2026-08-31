@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vitor\\taskapi\\taskapi.csproj": {}
+    "C:\\Users\\--\\repo\\back-end-gerenciador-de-tarefas\\taskapi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vitor\\taskapi\\taskapi.csproj": {
+    "C:\\Users\\--\\repo\\back-end-gerenciador-de-tarefas\\taskapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vitor\\taskapi\\taskapi.csproj",
+        "projectUniqueName": "C:\\Users\\--\\repo\\back-end-gerenciador-de-tarefas\\taskapi.csproj",
         "projectName": "taskapi",
-        "projectPath": "C:\\Users\\vitor\\taskapi\\taskapi.csproj",
-        "packagesPath": "C:\\Users\\vitor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vitor\\taskapi\\obj\\",
+        "projectPath": "C:\\Users\\--\\repo\\back-end-gerenciador-de-tarefas\\taskapi.csproj",
+        "packagesPath": "C:\\Users\\--\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\--\\repo\\back-end-gerenciador-de-tarefas\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\vitor\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\--\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -51,7 +51,7 @@
               "target": "Package",
               "version": "[8.0.0, )"
             },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[8.0.0, )"
             },
@@ -83,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.424/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,0 +1,4 @@
+# banco local do SQLite
+taskdb.db
+taskdb.db-shm
+taskdb.db-wal
